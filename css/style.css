@@ -21,13 +21,64 @@ h1 {
     font-size: 12px;
     color: #6e7ea9;
     text-transform: uppercase;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    
+}
+
+.btn-group a+a {
+    margin-left: 15px;
+}
+
+.btn-primary {
+    color: #ffff;
+    background-color: #1085e4;
+    font-weight: 700 ;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 24px 44px;
+    letter-spacing: 3.5px;
+    border-radius: 30px;
+    border: 1px solid #1085e4;
+}
+.btn-primary:hover {
+    color: #1085e4;
+    background-color: #ffff;
+}
+  
+.btn-secondary {
+    color: #7e8bae;
+    background-color: #cbdbe8;
+    font-weight: 700 ;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 24px 44px;
+    letter-spacing: 3.5px;
+    border-radius: 30px;
+    border: 1px solid #cbdbe8;
+}
+.btn-secondary:hover {
+    color: #cbdbe8;
+    background-color: #7e8bae;
+}
+
+.btn-info {
+    color: #8085b1;
+    background: transparent;
+    font-weight: 700 ;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 24px 44px;
+    letter-spacing: 3.5px;
+    border-radius: 30px;
+    border: 1px solid #dce1e5;
 }
 
 .btn-ftrial {
-    font-family: regular;
-    color: white;
-    font-weight: 400;
-    background-color: #1085e4;
+    padding: 25px 60px;
+    letter-spacing: 2.3px;
+    font-weight: 400; 
 }
 
 .grid h2{
