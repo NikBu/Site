@@ -37,8 +37,8 @@ h1 {
     font-weight: 700 ;
     font-size: 12px;
     text-transform: uppercase;
-    padding: 24px 44px;
-    letter-spacing: 3.5px;
+    padding: 21px 42px;
+    letter-spacing: 2.2px;
     border-radius: 30px;
     border: 1px solid #1085e4;
 }
@@ -53,8 +53,8 @@ h1 {
     font-weight: 700 ;
     font-size: 12px;
     text-transform: uppercase;
-    padding: 24px 44px;
-    letter-spacing: 3.5px;
+    padding: 22px 38px;
+    letter-spacing: 2.5px;
     border-radius: 30px;
     border: 1px solid #cbdbe8;
 }
@@ -69,8 +69,8 @@ h1 {
     font-weight: 700 ;
     font-size: 12px;
     text-transform: uppercase;
-    padding: 24px 44px;
-    letter-spacing: 3.5px;
+    padding: 21px 62px;
+    letter-spacing: 2.5px;
     border-radius: 30px;
     border: 1px solid #dce1e5;
 }
@@ -79,6 +79,11 @@ h1 {
     padding: 25px 60px;
     letter-spacing: 2.3px;
     font-weight: 400; 
+}
+
+.btn-learn {
+    padding: 20px 65px;
+    letter-spacing: 2.1px;
 }
 
 .grid h2{
@@ -138,12 +143,22 @@ h1 {
     font-weight: 500;
     color: #b1c3ee;
 }
-.page-subscribe button {
-    font-size: 14 px;
-    font-weight: 700;
-    color: white;
+
+.btn-subscribe {
+    color: #ffff;
     background-color: #1085e4;
+    font-weight: 700 ;
+    font-size: 12px;
     text-transform: uppercase;
+    padding: 17px 44px;
+    letter-spacing: 4px;
+    border-radius: 30px;
+    border: 1px solid #1085e4;
+}
+
+.btn-submit {
+    padding: 24px 45px;
+    letter-spacing: 4px;
 }
 
 .page-software h2, .page-stat h2, .page-app h2, .page-suitable h2, .page-easy-etid h2 {
