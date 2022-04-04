@@ -21,11 +21,15 @@ h1 {
     font-size: 12px;
     color: #6e7ea9;
     text-transform: uppercase;
-    margin: 0px;
-    padding: 0px;
+    margin-left: 0px;
     list-style-type: none;
+    letter-spacing: .2em;
+    padding: 53px 22px;
+    display: flex;
+    justify-content: space-between;
     
 }
+
 
 .btn-group a+a {
     margin-left: 15px;
@@ -75,9 +79,9 @@ h1 {
     border: 1px solid #dce1e5;
 }
 
-.btn-ftrial {
-    padding: 25px 60px;
-    letter-spacing: 2.3px;
+.btn-ftrail {
+    padding: 21px 53px;
+    letter-spacing: .2em;
     font-weight: 400; 
 }
 
