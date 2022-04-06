@@ -30,6 +30,10 @@ h1 {
     
 }
 
+.nav img {
+    margin-top: -22px;
+}
+
 
 .btn-group a+a {
     margin-left: 15px;
