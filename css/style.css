@@ -25,6 +25,29 @@ h1 {
     margin: 0;
 }
 
+.page-header {
+    background-image: url(../Image/Header-page.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 0 332px 0;
+    position: relative;
+}
+
+.MainLogo {
+    display: block;
+    background-image: url(../Image/MainLimpon.png);
+    width: 190px;
+    height: 60px;
+}
+
+.box-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 99.5px;
+    margin-bottom: 301px;
+}
+
 .nav {
     font-weight: 700 ;
     font-size: 12px;
@@ -41,10 +64,79 @@ h1 {
     padding-left: 38px;
 }
 
+.screen-img {
+    display: block;
+    background-image: url(../Image/Screen1.png);
+    background-repeat: no-repeat;
+    width: 895px;
+    height: 740px;
+    position: absolute;
+    top: 233px;
+    right: 402px;
+}
+
+
+.page-company {
+    background-image: url(../Image/company-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0 100px 0px;
+}
+.list-company{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-company-item {
+    display: block;
+    flex-basis: 20%;
+    background-repeat: no-repeat;
+}
+.company-one {
+    background-image: url(../Image/Token.png);
+    height: 65px;
+}
+.company-two {
+    background-image: url(../Image/Magneto.png);
+    height: 74px;
+}
+.company-three {
+    background-image: url(../Image/BooHoo.png);
+    height: 62px;
+}
+.company-four {
+    background-image: url(../Image/Fractal.png);
+    height: 69px;
+}
 
 .btn-group a+a {
     margin-left: 15px;
 }
+
+.page-subscribe{
+    background: #0a2090;
+    background: -moz-linear-gradient(left, #0a2090 0%, #2377cd 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #0a2090), color-stop(100%, #2377cd));
+    background: -webkit-linear-gradient(left, #0a2090 0%, #2377cd 100%);
+    background: -o-linear-gradient(left, #0a2090 0%, #2377cd 100%);
+    background: -ms-linear-gradient(left, #0a2090 0%, #2377cd 100%);
+    background: linear-gradient(to right, #0a2090 0%, #2377cd 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a2090', endColorstr='#2377cd', GradientType=1 );
+    position: relative;
+    padding: 140px;
+}
+
+.Robot{
+    position: absolute;
+    top: 121px;
+    right: 668px;
+    width: 354px;
+    height: 417px;
+}
+
 
 .btn-primary {
     color: #ffff;
@@ -143,16 +235,19 @@ h1 {
 }
 
 .page-subscribe h2{
+    letter-spacing: -1px;
     font-size: 50px;
     font-weight: 600;
     color: white;
 }
 .page-subscribe h2 span {
+    letter-spacing: 3px;
     font-size: 14px;
     font-weight: 800;
     color: #00bffe;
     display: block;
     text-transform: uppercase;
+    margin-bottom: 33px;
 }
 .page-subscribe p {
     font-size: 18px;
@@ -336,7 +431,7 @@ h1 {
     content: "";
     width: 58px;
     height: 100%;
-    background-image: url(../Image/Triangles.png);
+    background-image: url(../Image/Tr.png);
     background-repeat: no-repeat;
     position: absolute;
     top: 0;
@@ -350,4 +445,13 @@ h1 {
 }
 .page-plan .btn-primary:hover {
     background: transparent ;
+}
+
+.active {
+    width: 58px;
+    background-color: #000958;
+    color: #fff;
+}
+.active h3 {
+    color: #fff;
 }
