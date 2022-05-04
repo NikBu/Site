@@ -259,6 +259,12 @@ h1 {
     font-weight: 500;
     color: #b1c3ee;
 }
+.page-subscribe input {
+    padding: 23px 174px;
+    letter-spacing: 4px;
+    border-radius: 30px;
+    border: 1px solid #1085e4;
+}
 
 .btn-subscribe {
     color: #ffff;
@@ -427,16 +433,7 @@ h1 {
 .box-price-item ul>li {
     margin-bottom: 14px;
 }
-.box-price-item::after{
-    content: "";
-    width: 58px;
-    height: 100%;
-    background-image: url(../Image/Tr.png);
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
+
 .box-price-item active::after {
     display: none;
 }
