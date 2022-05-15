@@ -22,7 +22,7 @@ h1 {
 
 .center-box {
     max-width: 1110px;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .page-header {
@@ -73,6 +73,8 @@ h1 {
     position: absolute;
     top: 233px;
     right: 402px;
+    vertical-align: middle;
+
 }
 
 
@@ -125,17 +127,17 @@ h1 {
     background: -ms-linear-gradient(left, #0a2090 0%, #2377cd 100%);
     background: linear-gradient(to right, #0a2090 0%, #2377cd 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a2090', endColorstr='#2377cd', GradientType=1 );
-    position: relative;
-    padding: 140px;
 }
 
-.Robot{
-    position: absolute;
-    top: 121px;
-    right: 668px;
-    width: 354px;
-    height: 417px;
+.subscribe-robot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.subscribe-text {
+    line-height: 1.2;
+}
+
 
 
 .btn-primary {
@@ -254,30 +256,45 @@ h1 {
     font-weight: 500;
     color: #dfe8ff;
 }
+
 .page-subscribe input::placeholder {
     font-size: 14px;
     font-weight: 500;
     color: #b1c3ee;
 }
 .page-subscribe input {
-    padding: 23px 174px;
-    letter-spacing: 4px;
-    border-radius: 30px;
-    border: 1px solid #1085e4;
+    background-color: transparent;
+    border: 1px solid rgba(255,255,255,0.2);
+    padding:  0  0 0 40px ;
+    font-size: 14px;
+    color: #b1c3ee;
+    height: 70px;
+    border-radius: 35px;
+    width: 100%;
 }
+
 
 .btn-subscribe {
     color: #ffff;
     background-color: #1085e4;
-    font-weight: 700 ;
-    font-size: 12px;
-    text-transform: uppercase;
-    padding: 17px 44px;
     letter-spacing: 4px;
     border-radius: 30px;
+    font-weight: 700;
+    padding: 5px 56px;
+    font-size: 14px;
+    letter-spacing: .2em;
+    line-height: 50px;
     border: 1px solid #1085e4;
+    text-transform: uppercase;
+    position: absolute;
+    top: 5px;
+    right: -34px;
 }
-
+.subscribe-box{   
+    position: relative;
+    max-width: 570px;
+    display: block;
+ }
 .btn-submit {
     padding: 24px 45px;
     letter-spacing: 4px;
@@ -434,9 +451,7 @@ h1 {
     margin-bottom: 14px;
 }
 
-.box-price-item active::after {
-    display: none;
-}
+
 .page-plan .btn-primary {
     padding: 20px 60px;
 }
