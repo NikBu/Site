@@ -119,6 +119,7 @@ h1 {
 }
 
 .page-subscribe{
+    padding: 25px 0 28px 0;
     background: #0a2090;
     background: -moz-linear-gradient(left, #0a2090 0%, #2377cd 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, #0a2090), color-stop(100%, #2377cd));
@@ -131,11 +132,16 @@ h1 {
 
 .subscribe-robot {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .subscribe-text {
     line-height: 1.2;
+}
+
+.subscribe-text h2{
+    margin-top: 0;
+    margin-bottom: 25px;
 }
 
 
@@ -271,8 +277,11 @@ h1 {
     height: 70px;
     border-radius: 35px;
     width: 100%;
+    box-shadow: 10px 20px 30px rgba(1, 69, 90, 0.5);
 }
-
+.page-subscribe input:focus {
+    outline: none
+}
 
 .btn-subscribe {
     color: #ffff;
