@@ -119,7 +119,7 @@ h1 {
 }
 
 .page-subscribe{
-    padding: 25px 0 28px 0;
+    padding: 35px 0 48px 0;
     background: #0a2090;
     background: -moz-linear-gradient(left, #0a2090 0%, #2377cd 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, #0a2090), color-stop(100%, #2377cd));
@@ -207,20 +207,30 @@ h1 {
     letter-spacing: 2.1px;
 }
 
+
+.page-grid{
+    padding-top: 110px;
+    padding-bottom: 100px;
+}
 .grid h2{
+    line-height: 1.2;
     font-size: 40px;
     color: #192b59;
     font-weight: 700;
 }
 
 .grid h2 span {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    letter-spacing: 2.1px;
     font-size: 14px;
+    font-weight: 800;
     color: #1085e4;
     display: block;
 }
 
 .grid-item h3 {
-    font-size: 12px;
+    font-size: 20px;
     font-weight: 600;
     color: #192b59;    
 }
@@ -229,6 +239,81 @@ h1 {
     font-size: 14px;
     font-weight: 600;
     color: #1085e4;
+}
+.grid-item{
+    padding: 50px;
+    max-width: 250px;
+    text-align: center;
+    box-shadow: 0 0 5px #e7e6e6;
+}
+.grid-icon{
+    display: block;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+.grid-icon-1{
+    background-image: url(../Image/icon-1.png);
+    width: 54px;
+    height: 71px;
+}
+.grid-icon-2{
+    background-image: url(../Image/icon-2.png);
+    width: 65px;
+    height: 76px;
+}
+.grid-icon-3{
+    background-image: url(../Image/icon-3.png);
+    width: 77px;
+    height: 70px;
+}
+.grid-icon-4{
+    background-image: url(../Image/icon-4.png);
+    width: 70px;
+    height: 70px;
+}
+.grid-icon-5{
+    background-image: url(../Image/icon-5.png);
+    width: 70px;
+    height: 70px;
+}
+.grid-icon-6{
+    background-image: url(../Image/icon-6.png);
+    width: 74px;
+    height: 75px;
+}
+.grid-icon{
+    width: 90px;
+    height: 90px;
+}
+.grid{
+    display: grid;
+    grid-template-areas: "a b c" "d b c" "d e f" "g e f" "g h h";
+    grid-gap: 35px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-item-title{
+    grid-area: a;
+}
+.grid-item-1{
+    grid-area: b;
+}
+.grid-item-2{
+    grid-area: c;
+}
+.grid-item-3{
+    grid-area: d;
+}
+.grid-item-4{
+    grid-area: e;
+}
+.grid-item-5{
+    grid-area: f;
+}
+.grid-item-6{
+    grid-area: g;
+}
+.grid-item-text{
+    grid-area: h;
 }
 
 .rosalina  {
