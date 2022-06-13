@@ -874,3 +874,92 @@ svg {
 .btn-wb:hover span{
     background-position: -84px -20px;
 }
+
+
+
+.page-form{
+    background-image: url("../Image/BackGr6.png");
+    background-repeat: no-repeat;
+    text-align: left;
+    padding-bottom: 5px;
+    margin-bottom: -5px;
+}
+.form-block{
+    display: block;
+    max-width: 520px;
+}
+.form-block h2{
+    font-weight: 600;
+    font-size: 50px;
+    color: #192b59;
+    line-height: 1.2;
+    word-spacing: -2px;
+}
+.form-main{
+    display: flex;
+    justify-content: space-around;
+}
+.form-block input{
+    color: #ffff;
+    border-radius: 30px;
+    padding: 5px 35px;
+    border: 1px solid #3c4d5c;
+    display: block;
+    width: 440px;
+    height: 55px;
+    word-spacing: -2px;
+    margin: 20px 0;
+}
+.form-block textarea{
+    display: block;
+    border-radius: 30px;
+    padding: 5px 35px;
+    border: 1px solid #3c4d5c;
+    width: 450px;
+    height: 150px;
+    margin-bottom: 50px;
+}
+.page-form img{
+    height: 381;
+    width: 438;
+    margin: 138px 0;
+}
+
+.social{
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+}
+
+.footer{
+    background-color: #192b59;
+}
+
+.foot-box{
+    display: flex;
+    justify-content: space-between;
+}
+.footer p{
+    margin: 0;
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #b6bae0;
+}
+.footer p a{
+    margin: 0;
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #126dbf;
+    text-transform: uppercase;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+    width: 180px;
+}
+.footer .fa-brands{
+    color: white;
+    font-size: 16px;
+}
